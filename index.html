@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Blog preview card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree&family=Overpass:wght@400;700&family=Play:wght@700&family=Poppins:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      font-family: 'Figtree', sans-serif;
+    }
+    .para-div{
+      color: hsl(0, 0%, 50%);
+    }
+    .main-container{
+      box-shadow: 6px 3px black;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper w-screen h-screen flex justify-center items-center bg-yellow-300 ">
+<div class="main-container bg-white rounded-lg p-3 max-w-72 max-h-fit border border-black ">
+  <div class="img-div">
+    <img src="./assets/images/illustration-article.svg" alt="" class="rounded-xl">
+  </div>
+  <div class="content-div">
+    <div class="learning-div mt-3 font-bold text-sm">
+      <span class="bg-yellow-400 p-1 rounded-sm">Learning</span>
+    </div>
+    <div class="date-div mt-2">
+      <h5 class="text-sm font-semibold">Published 21 Dec 2023</h5>
+    </div>
+    <div class="heading mt-3 w-full font-bold text-lg">HTML & CSS foundations</div>
+    <div class="para-div mt-3 text-sm">These languages are the backbone of every website, defining structure, content, and presentation.
+    </div>
+    <div class="creator-div flex items-center gap-2 mt-5">
+      <div class="creator-img w-8 h-8">
+        <img src="./assets/images/image-avatar.webp" alt="">
+      </div>
+      <div class="creator-name text-sm font-black">Greg Hooper</div>
+    </div>
+  </div>
+</div><!--main-->
+</div><!--wrapper-->
+</body>
+</html>
